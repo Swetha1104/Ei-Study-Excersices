@@ -1,9 +1,7 @@
-
 interface Notification {
     void notifyUser();
 }
 
-// Concrete Products
 class EmailNotification implements Notification {
     public void notifyUser() {
         System.out.println("Sending an Email Notification");
@@ -16,12 +14,10 @@ class SMSNotification implements Notification {
     }
 }
 
-// Creator / Factory
 abstract class NotificationFactory {
     public abstract Notification createNotification();
 }
 
-// Concrete Creators
 class EmailNotificationFactory extends NotificationFactory {
     public Notification createNotification() {
         return new EmailNotification();

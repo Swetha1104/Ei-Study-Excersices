@@ -20,3 +20,13 @@ Sep 29, 2025 7:49:22 PM edtech.persistence.PersistenceManager saveData
 INFO: Data saved successfully to data\classrooms_data.ser
 Sep 29, 2025 7:50:01 PM edtech.Main main
 INFO: Application exited by user.
+Oct 08, 2025 12:11:07 PM edtech.Main configureLogging
+INFO: Logging configured.
+Oct 08, 2025 12:11:07 PM edtech.persistence.PersistenceManager loadData
+INFO: Data loaded successfully from data\classrooms_data.ser
+Oct 08, 2025 12:14:58 PM edtech.Main main
+INFO: Application exited by user.
+Oct 08, 2025 12:14:59 PM edtech.Main configureLogging
+INFO: Logging configured.
+Oct 08, 2025 12:14:59 PM edtech.persistence.PersistenceManager loadData
+INFO: Data loaded successfully from data\classrooms_data.ser
